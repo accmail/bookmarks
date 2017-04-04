@@ -1,0 +1,10 @@
+<p>
+  bookmarks-list works!
+</p>
+<app-add-bookmark (newBookmark) ='addBookmark($event)'></app-add-bookmark>
+<ul *ngIf='(bookmarks | async)?.length'>
+    <app-bookmark *ngFor='let bookmark of bookmarks | async'
+      [bookmark]='bookmark'>
+    </app-bookmark>
+</ul>
+

@@ -1,0 +1,7 @@
+<li>
+  <h1><a [href]="bookmark.Url" target="_blank">{{bookmark.Title}}</a></h1>
+  <p>{{bookmark.Description}}</p>
+  <img [src]='bookmark.Image' [alt]='bookmark.Title' [ngStyle]="{'width': '200px'}">
+  <p>{{bookmark.DateAdded | date }}</p>
+  <span (click)='removeBookmark(bookmark)'>X</span>
+</li>
