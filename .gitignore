@@ -44,3 +44,4 @@ Thumbs.db
 
 #localDB
 /server/localMongoDB
+/server/server_local.js
