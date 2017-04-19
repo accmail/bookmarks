@@ -1,0 +1,22 @@
+.addBookmark{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+
+h3{
+    padding: 10px;
+
+    margin: 0px;
+
+}
+
+input{
+    width:40%;
+    margin-left: 20px;
+}
+
+button{
+    width:10%;
+    margin-left: 20px;
+}

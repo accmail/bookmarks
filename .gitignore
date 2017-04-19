@@ -38,3 +38,6 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+#Url with personal info to DB
+/server/dbUrl.js

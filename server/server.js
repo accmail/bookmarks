@@ -2,9 +2,10 @@ const express = require('express');
 const mongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const url = require('./dbUrl');
 
 const app = express();
-const url = 'mongodb://otravujuma:otravujuma@ds145380.mlab.com:45380/bookmarks';
+
 
 app.use(cors());
 //app.use(bodyParser.urlencoded({ extended: true }));
