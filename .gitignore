@@ -41,3 +41,6 @@ Thumbs.db
 
 #Url with personal info to DB
 /server/dbUrl.js
+
+#localDB
+/server/localMongoDB
